@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<title>Bootstrap 3 Fluid Layout Example</title>
+	<script src="../static/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+	<script src="../static/js/jquery-3.2.1.js"></script>
+	<script src="../static/js/main.js"></script>
+	
+    <!-- Bootstrap core CSS -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../static/css/scrolling-nav.css" rel="stylesheet">	
+	<!-- link href="../static/css/base.css" rel="stylesheet" -->
+	<link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700' rel='stylesheet' type='text/css'>
+	
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+		<div class="container">
+			<a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#services">Services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+    </nav>
+	
+    <div class="jumbotron" style="background-color: #ffffff;">
+        <div class="container-fluid">
+			<h3>TeraDevTracker daily data</h3>
+			<h5>(Stacks vertically on mobile screens)</h5>
+			<div class="row flex-row flex-sm-nowrap">
+				<div class="col-sm-4 col-md-3">
+					<ul class="list-group">
+						{% autoescape false %}
+							{{ text[13]}}
+						{% endautoescape %}
+					</ul>
+				</div>
+				<div class="col-sm-4 col-md-3">
+					<ul class="list-group">
+						{% autoescape false %}
+							{{ text[12]}}
+						{% endautoescape %}
+					</ul>
+				</div>
+				<div class="col-sm-4 col-md-3">
+					<ul class="list-group">
+						{% autoescape false %}
+							{{ text[11]}}
+						{% endautoescape %}
+					</ul>
+				</div>
+				<div class="col-sm-4 col-md-3">
+					<ul class="list-group">
+						{% autoescape false %}
+							{{ text[10]}}
+						{% endautoescape %}
+					</ul>
+				</div>
+				<div class="col-sm-4 col-md-3">
+					<ul class="list-group">
+						{% autoescape false %}
+							{{ text[9]}}
+						{% endautoescape %}
+					</ul>
+				</div>
+				<div class="col-sm-4 col-md-3">
+					<ul class="list-group">
+						{% autoescape false %}
+							{{ text[8]}}
+						{% endautoescape %}
+					</ul>
+				</div>
+				<div class="col-sm-4 col-md-3">
+					<ul class="list-group">
+						{% autoescape false %}
+							{{ text[7]}}
+						{% endautoescape %}
+					</ul>
+				</div>
+				<div class="col-sm-4 col-md-3">
+					<ul class="list-group">
+						{% autoescape false %}
+							{{ text[6]}}
+						{% endautoescape %}
+					</ul>
+				</div>
+				<div class="col-sm-4 col-md-3">
+					<ul class="list-group">
+						{% autoescape false %}
+							{{ text[5]}}
+						{% endautoescape %}
+					</ul>
+				</div>
+				<div class="col-sm-4 col-md-3">
+					<ul class="list-group">
+						{% autoescape false %}
+							{{ text[4]}}
+						{% endautoescape %}
+					</ul>
+				</div>
+				<div class="col-sm-4 col-md-3">
+					<ul class="list-group">
+						{% autoescape false %}
+							{{ text[3]}}
+						{% endautoescape %}
+					</ul>
+				</div>
+				<div class="col-sm-4 col-md-3">
+					<ul class="list-group">
+						{% autoescape false %}
+							{{ text[2]}}
+						{% endautoescape %}
+					</ul>
+				</div>
+				<div class="col-sm-4 col-md-3">
+					<ul class="list-group">
+						{% autoescape false %}
+							{{ text[1]}}
+						{% endautoescape %}
+					</ul>
+				</div>
+				<div class="col-sm-4 col-md-3">
+					<ul class="list-group">
+						{% autoescape false %}
+							{{ text[0]}}
+						{% endautoescape %}
+					</ul>
+				</div>
+			</div>
+        </div>
+    </div>
+		
+	
+</body>	
+	
+</html>
+	
